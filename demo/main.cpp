@@ -51,7 +51,7 @@ int main() {
    t.reset();
    t.start();
 
-   ThisThread::sleep_for(8000ms);
+   ThisThread::sleep_for(5000ms);
 
    float time = t.read();
 
